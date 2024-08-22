@@ -1,0 +1,29 @@
+# Created at 2024-08-22T06:00:20.953
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2024-08-22T06:00:24.645
+Unexpected IOException with stream: 2024-08-22 06:00:24.644  INFO 315 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2024-08-22T06:00:24.647
+Unexpected IOException with stream: 2024-08-22 06:00:24.646  INFO 315 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2024-08-22T06:00:24.650
+Unexpected IOException with stream: 2024-08-22 06:00:24.650  INFO 315 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+
+
+# Created at 2024-08-22T06:00:25.156
+Unexpected IOException with stream: 2024-08-22 06:00:25.156  INFO 315 --- [           main] com.example.song.SongControllerTests     : Started SongControllerTests in 28.107 seconds (JVM running for 75.706)
+
+
+# Created at 2024-08-22T06:00:25.445
+Unexpected IOException: 5,1,com.example.song.SongControllerTests,testgetSongs,null,null,null
+
+
